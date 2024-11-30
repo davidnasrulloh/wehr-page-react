@@ -4,7 +4,7 @@ import AnnouncementList from '../components/Dashboard/Announcements/Announcement
 const Announcements = () => {
     return (
         <div className="pt-6 border-[1px] rounded-xl">
-            <div className="px-6 pb-4 flex flex-row justify-between">
+            <div className="px-6 pb-4 flex flex-col sm:flex-row justify-between gap-2 md:gap-0">
                 <h6 className="text-lg">Announcement</h6>
                 <div className="p-2 flex flex-row gap-1 justify-between items-center border-[1px] px-3 py-1 text-xs rounded-md text-gray-500">
                     <p>Today, 13 Sep 2021</p>

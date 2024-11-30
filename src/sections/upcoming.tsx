@@ -4,7 +4,7 @@ import UpcomingList from '../components/Dashboard/ActivityPanel/UpcomingSchedule
 const Upcoming = () => {
     return (
         <div className="pt-6 border-[1px] rounded-xl w-full md:w-[55%] lg:w-full">
-            <div className="px-6 pb-4 flex flex-row justify-between">
+            <div className="px-6 pb-4 flex flex-col sm:flex-row justify-between gap-2 md:gap-0">
                 <h6 className="text-lg md:text-md xl:text-lg">
                     Upcoming Schedule
                 </h6>
