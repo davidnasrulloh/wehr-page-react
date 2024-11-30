@@ -8,7 +8,7 @@ const menuSidebar = [
                 icon: 'ri:dashboard-line',
                 label: 'Dashboard',
                 active: true,
-                link: '/dashboard',
+                link: '/',
             },
             {
                 icon: 'ri:user-add-line',
