@@ -32,7 +32,7 @@ const Navbar = ({ isSidebarOpen, setSidebarOpen }: SidebarSectionProps) => {
             >
                 <button
                     onClick={() => setSidebarOpen(!isSidebarOpen)}
-                    className="md:hidden p-2"
+                    className="lg:hidden p-2"
                 >
                     <Icon icon="line-md:menu" width={24} height={24} />
                 </button>
