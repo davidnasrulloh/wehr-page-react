@@ -1,10 +1,13 @@
 import Button from '../../Button/Button';
+import TItleCard from '../../Common/TItleCard';
 
 const RecentlyActivity = () => {
     return (
         <div className="rounded-xl bg-[#161E54] text-white flex flex-col gap-4 w-full md:w-[45%] lg:w-full">
             <div className="bg-[#1B204A] rounded-t-xl">
-                <h6 className="px-8 py-6 text-xl">Recently Activity</h6>
+                <div className="px-8 py-6">
+                    <TItleCard value="Recently Activity" />
+                </div>
             </div>
             <div className="px-6 py-3 flex flex-col gap-3">
                 <p className="text-sm text-white/50">

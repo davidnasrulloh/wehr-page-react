@@ -1,13 +1,13 @@
 import { Icon } from '@iconify/react';
 import UpcomingList from '../components/Dashboard/ActivityPanel/UpcomingSchedule';
+import TItleCard from '../components/Common/TItleCard';
 
 const Upcoming = () => {
     return (
         <div className="pt-6 border-[1px] rounded-xl w-full md:w-[55%] lg:w-full">
             <div className="px-6 pb-4 flex flex-col lg:flex-row justify-between gap-2 lg:gap-0">
-                <h6 className="text-lg md:text-md xl:text-lg">
-                    Upcoming Schedule
-                </h6>
+                <TItleCard value="Upcoming Schedule" />
+
                 <div className="p-2 flex flex-row gap-1 justify-between items-center text-xs border-[1px] px-3 py-1 rounded-md text-gray-500">
                     <p>Today, 13 Sep 2021</p>
                     <Icon
