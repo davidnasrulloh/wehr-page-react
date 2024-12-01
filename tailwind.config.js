@@ -6,6 +6,12 @@ export default {
             fontFamily: {
                 sans: ['Poppins', 'sans-serif'], // Mengganti default 'sans' dengan Poppins
             },
+            screens: {
+                '2xl': '1600px',
+                '3xl': '1800px',
+                '4xl': '2200px',
+                '5xl': '2600px',
+            },
             colors: {
                 primary: {
                     default: '#FF5151', // Warna utama

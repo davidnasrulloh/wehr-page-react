@@ -1,4 +1,4 @@
-import TItleCard from '../../Common/TItleCard';
+import TitleCard from '../../TitleCard';
 
 type Props = {
     title: string;
@@ -18,7 +18,7 @@ const ChartActivity = ({
     return (
         <div className="border-[1px] p-6 rounded-xl flex flex-row justify-between">
             <div className="flex flex-col gap-4 w-full justify-between">
-                <TItleCard value={title} />
+                <TitleCard value={title} />
                 <p className="text-5xl font-medium">{total}</p>
 
                 <div className="flex flex-col gap-1 text-gray-500 text-sm">

@@ -44,12 +44,12 @@ function App() {
                         Dashboard
                     </h4>
                     <div className="flex flex-col xl:flex-row gap-8">
-                        <div className="flex flex-col gap-8 lg:gap-4 flex-2">
+                        <div className="flex flex-col gap-8 lg:gap-4 flex-[3]">
                             <OverviewCardList />
                             <ChartActivityList />
                             <Announcements />
                         </div>
-                        <div className="flex flex-col md:flex-row xl:flex-col gap-4 flex-1">
+                        <div className="flex flex-col md:flex-row xl:flex-col gap-4 flex-[2]">
                             <RecentlyActivity />
                             <Upcoming />
                         </div>

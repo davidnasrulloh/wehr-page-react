@@ -1,5 +1,5 @@
 import Button from '../../Button/Button';
-import TItleCard from '../../Common/TItleCard';
+import TItleCard from '../../TitleCard';
 
 const RecentlyActivity = () => {
     return (

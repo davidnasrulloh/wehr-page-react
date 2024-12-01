@@ -1,6 +1,6 @@
 import { Icon } from '@iconify/react';
 import UpcomingList from '../components/Dashboard/ActivityPanel/UpcomingSchedule';
-import TItleCard from '../components/Common/TItleCard';
+import TItleCard from '../components/TitleCard';
 
 const Upcoming = () => {
     return (
