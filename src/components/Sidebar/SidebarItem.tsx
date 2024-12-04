@@ -22,7 +22,7 @@ const SidebarItem = ({ title, items }: SidebarSectionProps) => {
                 {items.map((item, itemIndex) => (
                     <li
                         key={itemIndex}
-                        className={`flex items-center py-4 rounded-lg gap-6 cursor-pointer hover:text-red-500 hover:font-medium lg:pr-4 ${
+                        className={`flex items-center py-4 rounded-lg gap-6 cursor-pointer hover:text-red-500 hover:cursor-pointer hover:font-medium lg:pr-4 ${
                             item.active
                                 ? 'text-red-500 font-medium'
                                 : 'text-gray-500'
